@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 import requests
 import pandas as pd  
 from sklearn.feature_extraction.text import TfidfVectorizer  
