@@ -106,7 +106,7 @@ genre = st.radio(
 if genre == ":rainbow[Place]":   
 
     # Display selected recommendation and its description
-    st.subheader("Selected Recommendation:")
+    st.subheader("You are Recommended to go:")
     # Display the selected recommendation
     selected_description = recommendations.loc[recommendations['City'] == selected_recommendation, 'City_desc'].iloc[0]
     # Display the description of the selected recommendation
